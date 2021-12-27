@@ -11,7 +11,7 @@ one.classList.remove('three');
 const toggle = document.querySelector('.toggle');
 
 toggle.onclick = function () {
-    this.classList.toggle('three');
+    this.classList.toggle('three 1');
 }
 
 
