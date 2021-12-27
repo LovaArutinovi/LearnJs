@@ -15,7 +15,7 @@ btn_1.onclick = () => {
     } else if( inputValue < 16 && inputValue > 0) {
         outValue.innerHTML = "Доступ запрешён";
     } else {
-        outValue.innerHTML = "Введи нормальное значение !";
+        outValue.innerHTML = "Введи нормальное значение ! ";
     }
 }
 btn_1.onclick = () => {
