@@ -11,9 +11,9 @@ btn_1.onclick = () => {
     } else if ( inputValue >= 50 && inputValue < 100) {
         outValue.innerHTML = "Здарова старичок";
     } else if ( inputValue >= 100) {
-        outValue.innerHTML = "Как вы до сих пор живы?";
+        outValue.innerHTML = "Как вы до сих пор живы ?";
     } else if( inputValue < 16 && inputValue > 0) {
-        outValue.innerHTML = "Доступ запрешён";
+        outValue.innerHTML = "Доступ запрешён ";
     } else {
         outValue.innerHTML = "Введи нормальное значение !";
     }
